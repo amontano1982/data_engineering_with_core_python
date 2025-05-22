@@ -1,0 +1,17 @@
+my_data_pipeline/
+├── data/                    # Input/output datasets
+│   ├── raw/
+│   └── processed/
+├── notebooks/               # Jupyter or exploratory .ipynb files
+├── pipelines/               # Prefect flows and ETL logic
+│   └── daily_etl.py
+├── db/                      # DB models and schema migrations
+│   ├── models.py
+│   └── alembic/
+├── tests/                   # Unit and integration tests
+├── utils/                   # Reusable helpers (e.g., logging, validation)
+│   └── db_utils.py
+├── .env                     # Environment variables (e.g., DB creds)
+├── pyproject.toml           # Poetry dependency config
+├── README.md
+└── docker-compose.yml       # Optional local SQL Server container
